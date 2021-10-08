@@ -30,7 +30,7 @@ int main()
 		}
 		               //название  //режим доступа
 		FILE *abc = fopen("Test", "w+");
-		for (int i = 0; i < n; i++) // запись в док ?
+		for (int i = 0; i < n; i++) // запись в текст файл
 		{       
 			fprintf(abc, "%s\t%s\t%d\t%d\n", 
 					row[i].drug_name, row[i].indications, 
