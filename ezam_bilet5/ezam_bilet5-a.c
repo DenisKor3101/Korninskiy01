@@ -25,14 +25,14 @@ void add()
 {
 	int a3 = a1 * b2 + a2 * b1;
 	int b3 = b1 * b2;
-	printf("%d / %d\n", a3, b3);
+	printf("amount: %d / %d\n", a3, b3);
 }
 
 void subtract()
 {
 	int a3 = a1 * b2 - a2 * b1;
 	int b3 = b1 * b2;
-	printf("%d / %d\n", a3, b3);
+	printf("subtraction: %d / %d\n", a3, b3);
 }
 
 
