@@ -58,19 +58,25 @@ do
 	
 	switch(choice)
 	{
+		case 0: return 0; break;
 		case 1: input1(); break;
 		case 2: input2(); break;
 		case 3: print(); break;
 		case 4: add(); break;
 		case 5: subtract(); break;
 	}
-    printf("\n");
+    	printf("\n");
 	printf("press");
-    printf("\n");
+    	printf("\n");
  }
  while(choice != 0);
 	
 	
 	
 	return 0;
+	
+	switch(choice)
+	{
+		case 0: return 0; break;
+	}
 }
