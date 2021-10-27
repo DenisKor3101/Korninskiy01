@@ -44,7 +44,7 @@ void division()
 
 void multiplication()
 {
-    int 3 = a1 * a2;
+    int a3 = a1 * a2;
     int b3 = b1 * b2;
     
 	printf("multiplication: %d / %d\n", a3, b3);
@@ -63,8 +63,8 @@ do
 	printf("3 - printf\n");
 	printf("4 - add\n");
 	printf("5 - subtract\n");
-	printf("6 - devision\n");
-    	printf("7 - multiplication\n");
+    printf("6 - devision\n");
+    printf("7 - multiplication\n");
     
 
 	printf("\n");
@@ -75,22 +75,28 @@ do
 	
 	switch(choice)
 	{
+		case 0: return 0; break;
 		case 1: input1(); break;
 		case 2: input2(); break;
 		case 3: print(); break;
 		case 4: add(); break;
 		case 5: subtract(); break;
-                case 6: division();break;
-        	case 7: multiplication();break;
+        case 6: division();break;
+        case 7: multiplication();break;
        
 	}
-    	printf("\n");
+    printf("\n");
 	printf("press");
-    	printf("\n");
+    printf("\n");
  }
  while(choice != 0);
 	
 	
 	
 	return 0;
+
+	switch(choice)
+	{
+	case 0: return 0; break;
+	}
 }
