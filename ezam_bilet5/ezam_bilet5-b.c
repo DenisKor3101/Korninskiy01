@@ -25,28 +25,29 @@ void add()
 {
 	int a3 = a1 * b2 + a2 * b1;
 	int b3 = b1 * b2;
-	printf("%d / %d\n", a3, b3);
+	printf("amount: %d / %d\n", a3, b3);
 }
 
 void subtract()
 {
-	int a3 = a1 * b2 - a2 * b1;
+    int a3 = a1 * b2 - a2 * b1;
 	int b3 = b1 * b2;
-	printf("%d / %d\n", a3, b3);
+	printf("subtraction: %d / %d\n", a3, b3);
 }
 
 void division()
 {
     int a3 = a1 * b2;
 	int b3 = b1 * a2;
-	printf("%d / %d\n", a3, b3);
+	printf("division: %d / %d\n", a3, b3);
 }
 
 void multiplication()
 {
-    int a3 = a1 * a2;
-	int b3 = b1 * b2;
-	printf("%d / %d\n", a3, b3);
+    int 3 = a1 * a2;
+    int b3 = b1 * b2;
+    
+	printf("multiplication: %d / %d\n", a3, b3);
 }
 
 int main()
@@ -62,8 +63,9 @@ do
 	printf("3 - printf\n");
 	printf("4 - add\n");
 	printf("5 - subtract\n");
-    printf("6 - devision\n");
-    printf("7 - multiplication\n");
+	printf("6 - devision\n");
+    	printf("7 - multiplication\n");
+    
 
 	printf("\n");
 	
@@ -78,12 +80,13 @@ do
 		case 3: print(); break;
 		case 4: add(); break;
 		case 5: subtract(); break;
-        case 6: division();break;
-        case 7: multiplication();break;
+                case 6: division();break;
+        	case 7: multiplication();break;
+       
 	}
-    printf("\n");
+    	printf("\n");
 	printf("press");
-    printf("\n");
+    	printf("\n");
  }
  while(choice != 0);
 	
