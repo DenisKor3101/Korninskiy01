@@ -23,6 +23,16 @@ int main()
 	for (int i = 0; i < n; i++)
 	{
 		scanf("%d", &mark[i]);
+		if(mark[i]<mmin)
+		{
+			printf("Error\n");
+			return 0;
+		}
+			if(mark[i]>mmax)
+		{
+			printf("Error\n");
+			return 0;
+		}
 	}
 	
 	int sum = 0;
